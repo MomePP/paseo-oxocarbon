@@ -1,11 +1,10 @@
 // Oxocarbon for Paseo's theme picker.
 //
-// This exists so paseo-repatch does not have to carry the palette. The script
-// used to rewrite Paseo's default dark theme in the renderer bundle, which
-// replaced a theme rather than adding one, and needed an anchor that could
-// break on any release. `addTheme` is Paseo's own API: the theme appears under
-// Settings -> Appearance beside the built-ins, survives updates, and can be
-// switched away from.
+// A theme plugin rather than a patch to Paseo's bundle: rewriting the default
+// dark theme in the renderer replaces a theme instead of adding one, and needs
+// an anchor that can break on any release. `addTheme` is Paseo's own API: the
+// theme appears under Settings -> Appearance beside the built-ins, survives
+// updates, and can be switched away from.
 //
 // Paseo expands these eight into the full token set. The mapping is not by
 // name — read off the bundle's own `buildDarkSemanticColors` call, which is
@@ -39,13 +38,15 @@
 // the palette-faithful step back, or #262626 for real card separation.
 //
 // The terminal's 16 ANSI colours are NOT part of this. `addTheme` covers app
-// chrome only, so OXOCARBON_ANSI stays a bundle patch in paseo-repatch — and
-// has to, since a terminal should keep its palette whatever the chrome wears.
+// chrome only; the matching ANSI set is applied by the companion
+// Paseo-Vibrancy plugin (github.com/MomePP/Paseo-Vibrancy), since a terminal
+// should keep its palette whatever the chrome wears.
 //
-// Values come from ~/Developer/nvim-plugins/oxocarbon.nvim and Ghostty's own
-// `oxocarbon` theme (background #161616, foreground #f2f4f8), so Paseo, nvim
-// and the terminal agree. Ghostty then runs that background at opacity 0.80,
-// which is why its base reads darker than the hex alone.
+// Values come from oxocarbon.nvim (github.com/nyoom-engineering/oxocarbon.nvim)
+// and Ghostty's own `oxocarbon` theme (background #161616, foreground
+// #f2f4f8), so Paseo, nvim and the terminal agree. Ghostty then runs that
+// background at opacity 0.80, which is why its base reads darker than the hex
+// alone.
 import type { PluginClientContext } from "@getpaseo/plugin/client";
 
 export default function contribute(client: PluginClientContext) {
