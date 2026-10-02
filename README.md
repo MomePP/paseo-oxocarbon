@@ -14,6 +14,8 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-161616?style=flat-square&labelColor=262626)](LICENSE)
 [![Paseo](https://img.shields.io/badge/paseo-%E2%89%A50.9.0--beta.1-161616?style=flat-square&labelColor=262626)](https://paseo.sh)
 
+<img src="docs/hero.png" alt="Paseo with the Oxocarbon theme, shown with Paseo-Vibrancy's frosted glass" width="100%">
+
 </div>
 
 ---
