@@ -39,7 +39,7 @@
 //
 // The terminal's 16 ANSI colours are NOT part of this. `addTheme` covers app
 // chrome only; the matching ANSI set is applied by the companion
-// Paseo-Vibrancy plugin (github.com/MomePP/Paseo-Vibrancy), since a terminal
+// paseo-vibrancy plugin (github.com/MomePP/paseo-vibrancy), since a terminal
 // should keep its palette whatever the chrome wears.
 //
 // Values come from oxocarbon.nvim (github.com/nyoom-engineering/oxocarbon.nvim)

@@ -1,6 +1,6 @@
 <div align="center">
 
-# Paseo-Oxocarbon
+# paseo-oxocarbon
 
 **The [Oxocarbon](https://github.com/nyoom-engineering/oxocarbon.nvim) palette as a Paseo theme.**
 
@@ -14,7 +14,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-161616?style=flat-square&labelColor=262626)](LICENSE)
 [![Paseo](https://img.shields.io/badge/paseo-%E2%89%A50.9.0--beta.1-161616?style=flat-square&labelColor=262626)](https://paseo.sh)
 
-<img src="docs/hero.png" alt="Paseo with the Oxocarbon theme, shown with Paseo-Vibrancy's frosted glass" width="100%">
+<img src="docs/hero.png" alt="Paseo with the Oxocarbon theme, shown with paseo-vibrancy's frosted glass" width="100%">
 
 </div>
 
@@ -27,13 +27,13 @@ Adds an **Oxocarbon** entry to Paseo's theme picker, so Paseo matches oxocarbon.
 In Paseo, open **Settings > Plugins**, make sure **Enable plugins** is on, paste the source below into **Plugin source** and press **Install plugin**:
 
 ```
-github:MomePP/Paseo-Oxocarbon
+github:MomePP/paseo-oxocarbon
 ```
 
 Or from a terminal:
 
 ```sh
-paseo plugin install github:MomePP/Paseo-Oxocarbon
+paseo plugin install github:MomePP/paseo-oxocarbon
 ```
 
 Then pick **Oxocarbon** in **Settings > Appearance**.
@@ -55,7 +55,7 @@ Then pick **Oxocarbon** in **Settings > Appearance**.
 
 ## Terminal colours
 
-Paseo themes only cover the app chrome; the terminal's 16 ANSI colours are not part of a theme. [Paseo-Vibrancy](https://github.com/MomePP/Paseo-Vibrancy) applies the matching Oxocarbon ANSI set.
+Paseo themes only cover the app chrome; the terminal's 16 ANSI colours are not part of a theme. [paseo-vibrancy](https://github.com/MomePP/paseo-vibrancy) applies the matching Oxocarbon ANSI set.
 
 ## Uninstall
 

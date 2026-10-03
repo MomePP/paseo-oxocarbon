@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "license": "MIT",
-  "repository": "github:MomePP/Paseo-Oxocarbon",
+  "repository": "github:MomePP/paseo-oxocarbon",
   "files": [
     "paseo-plugin.json",
     "index.client.tsx"
