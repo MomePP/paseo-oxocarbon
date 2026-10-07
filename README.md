@@ -12,7 +12,7 @@
 ![#c693ff](https://img.shields.io/badge/-c693ff-c693ff?style=flat-square)
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-161616?style=flat-square&labelColor=262626)](LICENSE)
-[![Paseo](https://img.shields.io/badge/paseo-%E2%89%A50.9.0--beta.1-161616?style=flat-square&labelColor=262626)](https://paseo.sh)
+[![Paseo](https://img.shields.io/badge/paseo-%E2%89%A50.11.0-161616?style=flat-square&labelColor=262626)](https://paseo.sh)
 
 <img src="docs/hero.png" alt="Paseo with the Oxocarbon theme, shown with paseo-vibrancy's frosted glass" width="100%">
 
