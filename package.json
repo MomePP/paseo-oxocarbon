@@ -6,7 +6,9 @@
   "repository": "github:MomePP/paseo-oxocarbon",
   "files": [
     "paseo-plugin.json",
-    "index.client.tsx"
+    "index.client.tsx",
+    "assets",
+    "docs/hero.png"
   ],
   "scripts": {
     "typecheck": "tsc --noEmit"

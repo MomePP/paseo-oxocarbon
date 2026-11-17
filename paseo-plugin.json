@@ -1,4 +1,8 @@
 {
   "id": "paseo-oxocarbon",
+  "name": "Oxocarbon",
+  "description": "The Oxocarbon palette as a Paseo theme.",
+  "icon": "assets/icon.png",
+  "media": ["docs/hero.png"],
   "requirements": { "paseo": ">=0.11.0" }
 }
